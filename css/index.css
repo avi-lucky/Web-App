@@ -1,7 +1,22 @@
-body {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 20px;
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+.profile-image img{
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 .container {
@@ -46,3 +61,66 @@ body {
   float: left;
   color: #999;
 }
+
+.friend-list {
+  padding: 10px 15px;
+  display: flex;
+  vertical-align: baseline;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.friend-list .text {
+  margin-left: 12px;
+  width: 70%;
+}
+
+.friend-list .text h2 {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+ .h2, h2 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 2;
+  color: inherit;
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.chat-box-tray {
+  background: #eee;
+  width: 1190px;
+  display: flex;
+  align-items: baseline;
+  padding: 10px 15px;
+  align-items: center;
+  margin-top: 19px;
+  bottom: 0;
+}
+  
+ .chat-box-tray input {
+    margin: 0 10px;
+    padding: 6px 2px;
+    width: 1190px;
+  }
+
+  .chat-box-tray i {
+    padding: 10px;
+    color: rgb(87, 86, 86);
+    margin-right: 0px;
+    font-size: 30px;
+  }
+
+  /* i {
+    color: grey;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: 25px;
+    }  */
