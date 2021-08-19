@@ -1,4 +1,4 @@
-# Web Chat-App
+# Web Chat-Application
 
 A Simple Web Chat Application.
 
