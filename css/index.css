@@ -164,6 +164,8 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    height: 100%;
+    width: 100%;
   }
   
   .offset-md-9 .chat-bubble {
@@ -225,6 +227,7 @@
   
   .chat-box {
     background: rgb(230, 230, 230);
+    position: fixed;
     display: flex;
     width: 1125px;
     align-items: baseline;
@@ -245,7 +248,7 @@
     padding: 0px 20px;
     margin-bottom: 0px;
     width: 940px;
-    text-align: center;
+    text-align: left;
   }
   
   button, input {
